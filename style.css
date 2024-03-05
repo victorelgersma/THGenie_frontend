@@ -9,12 +9,16 @@ body {
     hsl(197deg 100% 30%) 98%,
     hsl(183deg 79% 36%) 100%
   );
+}
+root {
   height: 100vh;
 }
 
 header {
   display: grid;
   place-items: center;
+  font-family: sans-serif;
+  color: white;
 }
 
 .button {
